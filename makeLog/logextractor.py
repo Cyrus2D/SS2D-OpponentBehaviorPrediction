@@ -21,7 +21,7 @@ def logExtractor(log):
 
     players = []
     #Run Cycles
-    run_logzip(log, player_types)
+    run_log(log, player_types)
 
 def run_log(log, player_types):
     os.chdir("../samples")
